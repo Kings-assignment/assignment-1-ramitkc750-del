@@ -1,13 +1,10 @@
-// Write a C expression that calculates the sum of the squares of three different numbers.
-#include <stdio.h>
-
-int main() {
-    int a = 2;
-    int b = 3;
-    int c = 4;
-    
-    int result = (a * a) + (b * b) + (c * c); 
-    
-    printf("Sum of squares: %d", result);
+// Create an expression that calculates the sum of squares of three numbers a, b, and c.
+#include<stdio.h>
+int main(){
+    int a,b,c,sum;
+    printf("Enter the value of a, b and c:");
+    scanf("%d%d%d", &a, &b, &c);
+    sum=a*a+b*b+c*c;
+    printf("The sum of squares is: %d\n", sum);
     return 0;
 }
