@@ -5,12 +5,13 @@
 #include <stdio.h>
 #include <conio.h>
 int main(){
-
-int d,w,rem;
-printf("Enter the number of days: ");
-scanf("%d",&d);
-w=d/7;
-rem=d%7;
-printf("The equivalent number of weeks and days is: %d week(s) and %d day(s)\n", w, rem);
+    int days, weeks, remaining_days;
+    printf("Enter the number of days: ");
+    scanf("%d", &days);
+    
+    weeks = days / 7; // Calculate the number of weeks
+    remaining_days = days % 7; // Calculate the remaining days
+    
+    printf("%d week(s) and %d day(s)\n", weeks, remaining_days);
 return 0;
 }
