@@ -3,7 +3,7 @@
 // Input = 10
 // Output = "1 week and 3 days"
 #include <stdio.h>
-#include <conio.h>
+
 int main(){
     int days, weeks, remaining_days;
     printf("Enter the number of days: ");
